@@ -1,0 +1,76 @@
+html{
+    height: 100%;
+}
+body{
+    background-color: #000000;
+    background-image: url(backgroundImage2.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;  /*if i dont use width then it will not be in center*/
+}
+header{
+    /* background-color: blue; */
+    height: 110px;
+    text-align: center;
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.534);
+    /* height: 40px; */
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+main{
+    /* background-color: orange; */
+    height: 400px;
+    text-align: center;
+    /* margin vs padding */
+    /* margin -> box ko up down karti hai */
+    /* padding -> box ke inside content ko up down karti hai */
+    padding-top: 18px;
+    padding-left: 240px;
+    padding-right: 240px;
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.788);;
+    /* height: 100px; */
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+h1{
+    font-size: 84px;
+    color:chartreuse;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-size: 18px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    color: #49FF00;
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif;
+    /* text-decoration: none; */
+}
+/* compound selector */
+nav a{
+    text-decoration: none;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;;
+}
+footer p{
+    color: #49FF00;
+    text-align: center;
+    font-size: 15px;
+}
+.maps{
+    padding-bottom: 100px;;
+}
